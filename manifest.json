@@ -1,0 +1,16 @@
+{
+  "name": "Prime Video ads skip",
+  "version": "1.0",
+  "description": "Skip Prime Video ads",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.primevideo.com/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ]
+}
